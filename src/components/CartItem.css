@@ -3,7 +3,6 @@ li.CartItem {
   display: flex;
   align-content: space-between;
   align-items: center;
-  border: 1px solid #ccc;
 }
 
 li.CartItem p {
@@ -18,4 +17,5 @@ li.CartItem p.name {
 
 li.CartItem p.price {
   max-width: 50px;
+
 }

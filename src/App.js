@@ -17,6 +17,7 @@ class App extends Component {
         </header>
         <Clock format={'HH:mm'} ticking={true} timezone={'Europe/Amsterdam'} />
         <ul>
+          {products.map((product, index) => (<CartItem key={index} { ...product } /> ))}
         </ul>
       </div>
     );
