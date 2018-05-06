@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import CartItem from './components/CartItem'
+import Clock from 'react-live-clock'
 import './App.css'
 
 const products = [
@@ -14,6 +15,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">A Shopping Cart</h1>
         </header>
+        <Clock format={'HH:mm'} ticking={true} timezone={'Europe/Amsterdam'} />
         <ul>
         </ul>
       </div>
