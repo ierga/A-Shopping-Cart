@@ -1,0 +1,21 @@
+
+li.CartItem {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+li.CartItem p {
+  flex: 1;
+  padding: 12px 24px;
+  font-size: 150%;
+}
+
+li.CartItem p.name {
+  font-weight: bold;
+}
+
+li.CartItem p.price {
+  max-width: 50px;
+}

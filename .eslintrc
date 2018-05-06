@@ -1,3 +1,7 @@
 {
   "extends": "react-app"
 }
+
+static propTypes = { // eslint-disable-line no-undef
+    content: PropTypes.string.isRequired,
+ }
